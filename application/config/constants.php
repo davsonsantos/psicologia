@@ -63,5 +63,6 @@ define('GD_JS', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/admin/js/');
 define('GD_IMG', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/admin/img/');
 define('GD_FONTS', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/admin/fonts/');
 define('GD_MEDIA', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/admin/media/');
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
