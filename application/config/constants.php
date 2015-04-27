@@ -43,13 +43,13 @@ define('MODAL_LOAD','<div class="progress progress-striped active"><div class="p
 
 
 //CONSTANTES DO SITE
-define('SITE_TITULO', 'Portifólio Grupo 2D'); // define o título das páginas
+define('SITE_TITULO', 'Transformar Psicologia'); // define o título das páginas
 define('SITE_RODAPE', '<p>&copy 2014/'.date('Y').' | Todos os direitos reservados ao Grupo 2D');
 define('SITE_RAIZ', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/'); // define o título das páginas
 define('SITE_CSS', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/css/'); // define o caminho para as paginas de stylo .css
 define('SITE_BOOT', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/bootstrap/'); // define o caminho para as paginas de stylo .css
 define('SITE_JS', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/js/'); // define o caminho para as paginas javascript .js
-define('SITE_IMG', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/images/'); // define o caminho para as paginas de images
+define('SITE_IMG', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/img/'); // define o caminho para as paginas de images
 define('SITE_FONTE', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/assets/site/fonts/'); // define o caminho para as paginas de stylo .css
 define('SITE_ARQUIVO', 'http://'.$_SERVER['HTTP_HOST'].'/psicologia/application/upload/');
 

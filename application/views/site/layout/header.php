@@ -1,329 +1,405 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+	
+<!-- Mirrored from html.creaws.com/clinico/ by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 10 Apr 2015 15:27:23 GMT -->
 <head>
-    <meta charset="utf-8">
-    <title>Your Name Here - Welcome</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Html5TemplatesDreamweaver.com">
-	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!-- Remove this Robots Meta Tag, to allow indexing of site -->
-
-    <link href="<?=SITE_JS?>bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=SITE_JS?>bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Icons -->
-    <link href="<?=SITE_JS?>icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
-    <link href="<?=SITE_JS?>icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
-    <!--[if lt IE 8]>
-        <link href="scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
-        <link href="scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
-    <![endif]-->
-    <link rel="stylesheet" href="<?=SITE_JS?>fontawesome/css/font-awesome.min.css">
-    <!--[if IE 7]>
-        <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome-ie7.min.css">
-    <![endif]-->
-
-    <link href="<?=SITE_JS?>carousel/style.css" rel="stylesheet" type="text/css" />
-    <link href="<?=SITE_JS?>camera/css/camera.css" rel="stylesheet" type="text/css" />
-
-    <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
-
-    <link href="<?=SITE_CSS?>custom.css" rel="stylesheet" type="text/css" />
-</head>
-<body id="pageBody">
-
-<div id="divBoxed" class="container">
-
-    <div class="transparent-bg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
-
-    <div class="divPanel notop nobottom">
-            <div class="row-fluid">
-                <div class="span12">
-
-                    <div id="divLogo" class="pull-left">
-                        <!-- <a href="index.html" id="divSiteTitle">Your Name</a><br />
-                        <a href="index.html" id="divTagLine">Your Tag Line Here</a> -->
-                        
-                        <a href="index.html" id="divSiteTitle">
-                        	<img src="<?=SITE_IMG?>logo.png" alt="Site Name" title="Site Name" />
-                        </a>
-                    </div>
-
-                    <div id="divMenuRight" class="pull-right">
-                    <div class="navbar">
-                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
-                            NAVIGATION <span class="icon-chevron-down icon-white"></span>
-                        </button>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav nav-pills ddmenu">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-							<li class="dropdown">
-                            <a href="page.html" class="dropdown-toggle">Page <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                            <li><a href="full.html">Full Page</a></li>
-                            <li><a href="2-column.html">Two Column</a></li>
-                            <li><a href="3-column.html">Three Column</a></li>
-							<li><a href="../documentation/index.html">Documentation</a></li>
-							<li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Dropdown Item &nbsp;&raquo;</a>
-                            <ul class="dropdown-menu sub-menu">
-                            <li><a href="#">Dropdown Item</a></li>
-                            <li><a href="#">Dropdown Item</a></li>
-                            <li><a href="#">Dropdown Item</a></li>
-                            </ul>
-                            </li>
-                            </ul>
-                            </li>
-						    <li><a href="services.html">Services</a></li>
-						    <li><a href="portfolio.html">Portfolio</a></li>
-						    <li><a href="contact.php">Contact</a></li>
-                            </ul>
-                            </div>
-                    </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="row-fluid">
-            <div class="span12">
-
-                <div id="headerSeparator"></div>
-
-                <div class="camera_full_width">
-                    <div id="camera_wrap">
-                        <div data-src="slider-images/4.jpg" ><div class="camera_caption fadeFromBottom cap1">Add a slogan or feature here...</div></div>
-						<div data-src="slider-images/1.jpg" ><div class="camera_caption fadeFromBottom cap2">Add a slogan or feature here...</div></div>
-						<div data-src="slider-images/2.jpg" ></div>
-                    </div>
-                    <br style="clear:both"/><div style="margin-bottom:40px"></div>
-                </div>               
-
-                <div id="headerSeparator2"></div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="contentArea">
-
-        <div class="divPanel notop page-content">
-            
-
-            <div class="row-fluid">
-            <!--Edit Main Content Area here-->
-                <div class="span12" id="divMain">
-                    <h1>Welcome</h1>
-                    				
-					<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong> Sed ipsum metus, pulvinar sed volutpat sit amet, fermentum in orci. Quisque vitae neque lectus, quis accumsan massa. Vivamus viverra orci eu dolor tristique sollicitudin. Duis sollicitudin laoreet tellus ac dictum. 
-					Fusce suscipit lectus vel elit posuere volutpat. Morbi ornare eros ut magna ullamcorper feugiat. 
-					Vivamus feugiat ligula vel nisi venenatis eleifend. Morbi accumsan rhoncus viverra. Integer orci nisi, 
-					cursus sit amet luctus quis, dictum eget massa.</p>
-
-                    <br />                   
-                    <br />                 
-
-	<div class="row-fluid">
-    <div class="span3">
-			<div class="box">
-				<i class="icon-wrench"></i>
-				<h4 class="title">Web Design</h4> <hr/>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
-			</div>
-	</div> 
+		<title><?=SITE_TITULO?></title>
 		
-	<div class="span3">
-			<div class="box">
-				<i class="icon-leaf"></i>
-				<h4 class="title">Web Development</h4> <hr/>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
-			</div>
-	</div> 
+		<!-- metas -->
+		<meta charset="utf-8">
+		<meta name="author" content="http://grupo2d.net.br">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<!--/ metas -->
 		
-	<div class="span3">
-			<div class="box">
-				<i class="icon-edit"></i>
-				<h4 class="title">Custom Themes</h4> <hr/>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
-			</div>
-	</div> 
+		<!-- styles -->
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>layerslider.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>fullwidth/skin.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>jquery.fancybox.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>styles.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_CSS?>color-green.css">
+		<link rel="stylesheet" type="text/css" href="<?=SITE_RAIZ?>assets/site/tuner/css/styles.css">
 		
-	<div class="span3">
-			<div class="box">
-				<i class="icon-signal"></i>
-				<h4 class="title">SEO</h4> <hr/>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus, sapien nec dignissim porta.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
+		<!--/ styles -->
+		
+		<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+	</head>
+	
+	<body>
+		<div class="page">
+
+			<!-- page header -->
+			<header class="page-header main-page sticky">
+				<div class="sticky-wrapp">
+					<div class="sticky-container">
+						<!-- logo -->
+						<section id="logo" class="logo">
+							<div>
+								<a href="index-2.html"><img src="<?=SITE_IMG?>/blue/logo.png" alt="Clinico"></a>
+							</div>
+						</section>
+						<!--/ logo -->
+						
+						<!-- main nav -->
+						<?php $this->load->view('site/layout/menu'); ?>
+						<!--/ main nav -->
+						
+						<!-- mobile nav -->
+						<?php $this->load->view('site/layout/menu_responsive'); ?>
+						<!--/ mobile nav -->
+					</div>
+				</div>
+			</header>
+			<!--/ page header -->
+			
+			<!-- quick search -->
+			<form id="quick-search" class="quick-search">
+				<fieldset>
+					<legend>Restrito</legend>
+					
+					<input type="text" placeholder="Login" id="login" name="login" class="ui-autocomplete-input" autocomplete="off">
+					<input type="text" placeholder="Senha" id="senha" name="senha" class="ui-autocomplete-input" autocomplete="off">
+					
+					<button type="submit">Acessar</button>
+					<div class="switcher">
+						<button id="quick-search-switcher" type="button">Restrito</button>
+					</div>
+				</fieldset>				
+			</form>
+			<!--/ quick search -->
+
+			<!-- slider -->
+			<div class="slider-wrapper">
+				<section class="slider" id="slider">
+					<div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+						<img src="<?=SITE_IMG?>pic/medical-slide-1.jpg" alt="" class="ls-bg">
+						
+						<!-- <div class="intro ls-l" data-ls="offsetyin:top;offsetxin:0;durationin:2000;offsetyout:bottom;offsetxout:0;durationout:1000;" style="left:80%;top:35%;">
+							<span class="icon fa fa-bolt"></span>
+							<h2><span>Tranformar</span>Psicologia</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p> 
+							<div class="buttons">
+								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
+								<a href="#" class="button">Read More</a>
+								<a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+							</div>
+						</div> -->
+					</div>
+					<div class="ls-slide" data-ls="transition2d:40;slidedelay:7000;">				
+						<img src="<?=SITE_IMG?>pic/medical-slide-2.jpg" alt="" class="ls-bg">
+						
+						<!-- <div class="intro ls-l" data-ls="scalexin:0.3;scaleyin:0.3;rotatexin:180;offsetxin:0;durationin:2000;durationout:2000;scalexout:2;scaleyout:2;offsetxout:0;fadeout:true;showuntil:3000;" style="left:80%;top:35%;">
+							<span class="icon fa fa-comments"></span>
+							<h2><span>HELP</span>ONLINE</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
+							<div class="buttons">
+								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a><!--
+								--><a href="#" class="button">Read More</a><!--
+								--><a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+							</div>
+						</div> -->
+					</div>
+					<div class="ls-slide" data-ls="transition2d:11;slidedelay:7000;">
+						<img src="<?=SITE_IMG?>pic/medical-slide-3.jpg" alt="" class="ls-bg">
+						
+						<!-- <div class="intro ls-l" data-ls="skewxin:30;skewyin:0;offsetxin:right;fadein:false;durationin:2000;durationout:1000;offsetxout:right;offsetyout:0;fadeout:true;" style="left:80%;top:35%;">
+							<span class="icon fa fa-flask"></span>
+							<h2><span>LAB</span>TESTING</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
+							<div class="buttons">
+								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a><!--
+								--><a href="#" class="button">Read More</a><!--
+								--><a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+							</div>
+						</div> -->
+					</div>
+				</section>
 			</div>
-	</div>    </div>
-                    
-
-    <div class="row-fluid">
-            <div class="span3">
-                    <h5 class="text-info">Project 1</h5>
-                    <img src="images/home-image.jpg" class="img-polaroid" style="margin:5px 0px 15px;" alt="">                
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><a href="#">Read More &raquo;</a></p>
-            </div>
-            <div class="span3">                
-                    <h5 class="text-info">Project 2</h5>
-                    <img src="images/home-image.jpg" class="img-polaroid" style="margin:5px 0px 15px;" alt="">  
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><a href="#">Read More &raquo;</a></p>
-            </div>
-            <div class="span3">                
-                    <h5 class="text-info">Project 3</h5>
-                    <img src="images/home-image.jpg" class="img-polaroid" style="margin:5px 0px 15px;" alt="">  
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><a href="#">Read More &raquo;</a></p>
-            </div>
-			<div class="span3">
-                    <h5 class="text-info">Project 4</h5>
-                    <img src="images/home-image.jpg" class="img-polaroid" style="margin:5px 0px 15px;" alt="">                
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><a href="#">Read More &raquo;</a></p>
-            </div>
-    </div>  
-
-                </div>
-            <!--End Main Content-->
-            </div>
-
-            <div id="footerInnerSeparator"></div>
-        </div>
-    </div>
-
-    <div id="footerOuterSeparator"></div>
-
-    <div id="divFooter" class="footerArea">
-
-        <div class="divPanel">
-
-            <div class="row-fluid">
-                <div class="span3" id="footerArea1">
-                
-                    <h3>About Company</h3>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
-                    
-                    <p> 
-                        <a href="#" title="Terms of Use">Terms of Use</a><br />
-                        <a href="#" title="Privacy Policy">Privacy Policy</a><br />
-                        <a href="#" title="FAQ">FAQ</a><br />
-                        <a href="#" title="Sitemap">Sitemap</a>
-                    </p>
-
-                </div>
-                <div class="span3" id="footerArea2">
-
-                    <h3>Recent Blog Posts</h3> 
-                    <p>
-                        <a href="#" title="">Lorem Ipsum is simply dummy text</a><br />
-                        <span style="text-transform:none;">2 hours ago</span>
-                    </p>
-                    <p>
-                        <a href="#" title="">Duis mollis, est non commodo luctus</a><br />
-                        <span style="text-transform:none;">5 hours ago</span>
-                    </p>
-                    <p>
-                        <a href="#" title="">Maecenas sed diam eget risus varius</a><br />
-                        <span style="text-transform:none;">19 hours ago</span>
-                    </p>
-                    <p>
-                        <a href="#" title="">VIEW ALL POSTS</a>
-                    </p>
-
-                </div>
-                <div class="span3" id="footerArea3">
-
-                    <h3>Sample Content</h3> 
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s. 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
-                    </p>
-
-                </div>
-                <div class="span3" id="footerArea4">
-
-                    <h3>Get in Touch</h3>  
-                                                               
-                    <ul id="contact-info">
-                    <li>                                    
-                        <i class="general foundicon-phone icon"></i>
-                        <span class="field">Phone:</span>
-                        <br />
-                        (123) 456 7890 / 456 7891                                                                      
-                    </li>
-                    <li>
-                        <i class="general foundicon-mail icon"></i>
-                        <span class="field">Email:</span>
-                        <br />
-                        <a href="mailto:info@yourdomain.com" title="Email">info@yourdomain.com</a>
-                    </li>
-                    <li>
-                        <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
-                        <span class="field">Address:</span>
-                        <br />
-                        123 Street<br />
-                        12345 City, State<br />
-                        Country
-                    </li>
-                    </ul>
-
-                </div>
-            </div>
-
-            <br /><br />
-            <div class="row-fluid">
-                <div class="span12">
-                    <p class="copyright">
-                        Copyright © 2013 Your Company. All Rights Reserved.
-                    </p>
-
-                    <p class="social_bookmarks">
-                        <a href="#"><i class="social foundicon-facebook"></i> Facebook</a>
-			<a href=""><i class="social foundicon-twitter"></i> Twitter</a>
-			<a href="#"><i class="social foundicon-pinterest"></i> Pinterest</a>
-			<a href="#"><i class="social foundicon-rss"></i> Rss</a>
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-<br /><br /><br />
-
-<script src="<?=SITE_JS?>jquery.min.js" type="text/javascript"></script> 
-<script src="<?=SITE_JS?>bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?=SITE_JS?>default.js" type="text/javascript"></script>
-
-
-<script src="<?=SITE_JS?>carousel/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script><script type="text/javascript">$('#list_photos').carouFredSel({ responsive: true, width: '100%', scroll: 2, items: {width: 320,visible: {min: 2, max: 6}} });</script><script src="scripts/camera/scripts/camera.min.js" type="text/javascript"></script>
-<script src="<?=SITE_JS?>easing/jquery.easing.1.3.js" type="text/javascript"></script>
-<script type="text/javascript">function startCamera() {$('#camera_wrap').camera({ fx: 'scrollLeft', time: 2000, loader: 'none', playPause: false, navigation: true, height: '35%', pagination: true });}$(function(){startCamera()});</script>
-
-
-</body>
-</html>
+			<!--/ slider -->
+			
+			<!-- page content -->
+			<main class="page-content">
+				<div class="grid-row">
+					<!-- benefits -->
+					<section class="benefits">
+						<ul>
+							<li>
+								<div class="pic"><i class="fa fa-user"></i></div>
+								<div class="text">
+									<h2>Crianças</h2>
+									<p>Aliquam ut lorem scelerisque, consequat mi quis, scelerisque massa.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-users"></i></div>
+								<div class="text">
+									<h2>Adolescente</h2>
+									<p>Cum sociis natoque penatibus et magnis dis parturient liquam montes liquam montes.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-user"></i></div>
+								<div class="text">
+									<h2>Adulto</h2>
+									<p>Suspendisse mattis tristique libero at placerat. Nullam diam risus.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-users"></i></div>
+								<div class="text">
+									<h2>Idoso</h2>
+									<p>Pellentesque quam metus, venenatis quis eleifend sit amet porttitor.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!--/ benefits -->
+				</div>
+				
+				<div class="grid-row">
+					<!-- services -->
+					<section class="services">
+						<ul>
+							<li>
+								<a class="pic"><i class="fa fa-leaf"></i></a>
+								<h2><a href="#">Transplant Services</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo non odio molestie, sed venenatis elit laoreet. Cras pharetra dolor vitae malesuada facilisis.</p>
+								<a href="#" class="more fa fa-long-arrow-right"></a>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-user-md"></i></a>
+								<div class="text">
+									<h2><a href="#">Qualified Doctors</a></h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo non odio molestie, sed venenatis elit laoreet. Cras pharetra dolor vitae malesuada facilisis.</p>
+									<a href="#" class="more fa fa-long-arrow-right"></a>
+								</div>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-clock-o"></i></a>
+								<h2><a href="#">24 Hours Service</a></h2>
+								<p>Mauris consectetur, dui eget ullamcorper hendrerit, eros ligula consectetur dui, vitae adipiscing nunc enim eu justo. Donec quis mollis neque. Pellentesque facilisis.</p>
+								<a href="#" class="more fa fa-long-arrow-right"></a>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-ambulance"></i></a>
+								<div class="text">
+									<h2><a href="#">Emergency Departments</a></h2>
+									<p>Fusce pellentesque lectus quis placerat ultrices. Nunc malesuada est vitae urna laoreet porta. Donec cursus tellus libero, non porttitor felis luctus ut.</p>
+									<a href="#" class="more fa fa-long-arrow-right"></a>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!--/ services -->	
+				</div>
+				
+				<div class="grid-row">
+					<!-- doctors carousel -->
+					<section class="widget doctors-carousel doctors">
+						<div class="widget-title">Our Doctors</div>
+						<div id="doctors-carousel" class="owl-carousel">
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-1.jpg" width="270" height="270" alt="Dr. Butcher House">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Butcher House</a></h3>
+								<p>Ophthomologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-2.jpg" width="270" height="270" alt="Dr. Brick Wall">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Brick Wall</a></h3>
+								<p>Dermatologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-3.jpg" width="270" height="270" alt="Dr. Sno White">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Sno White</a></h3>
+								<p>Neorologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-4.jpg" width="270" height="270" alt="Dr. Mangle Taleebin">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Mangle Taleebin</a></h3>
+								<p>Surgeon</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-2.jpg" width="270" height="270" alt="Dr. Brick Wall">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Brick Wall</a></h3>
+								<p>Dermatologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-4.jpg" width="270" height="270" alt="Dr. Mangle Taleebin">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Mangle Taleebin</a></h3>
+								<p>Surgeon</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-3.jpg" width="270" height="270" alt="Dr. Sno White">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Sno White</a></h3>
+								<p>Neorologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-1.jpg" width="270" height="270" alt="Dr. Butcher House">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page.html">Dr. Butcher House</a></h3>
+								<p>Ophthomologist</p>
+							</div>
+						</div>
+					</section>
+					<!--/ doctors carousel -->
+				</div>
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-4">
+						<!-- departments -->
+						<section class="widget widget-departments">
+							<div class="widget-title">Departments</div>
+							<dl>
+								<dt><i class="fa fa-medkit"></i>Primary Health Care</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+								<dt><i class="fa fa-user-md"></i>Gynaecological Clinic</dt>
+								<dd>Donec lacinia suscipit magna, et pulvinar tortor facilisis quis. Donec tempor erat vel scelerisque posuere.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+								<dt><i class="fa fa-stethoscope"></i>Diagnosis With Precise</dt>
+								<dd>Nam elementum elit eget  tellus faucibus euismod. Aliquam turpis nibh, dictum eu consequat ac, facilisis eu elit. Pellentesque pellentesque orci quam, nec tempus nibh congue ut.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+								<dt><i class="fa fa-heart"></i>Cardiac Clinic</dt>
+								<dd>Nulla nec rutrum tortor, in fermentum nisl.accumsan pulvinar scelerisque tincidunt, adipiscing eget risus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+								<dt><i class="fa fa-scissors"></i>General Surgery</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+								<dt class="opened"><i class="fa fa-wheelchair"></i>Rehabilitation Studio</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
+							</dl>
+						</section>
+						<!--/ departments -->
+					</div>
+					
+					<div class="grid-col grid-col-4">
+						<!-- sevices -->
+						<section class="widget widget-sevices">
+							<div class="widget-title">Our Medical Services</div>
+							<ul>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cardiothoracic Surgery</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cardiovascular Diseases</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Ophthalmology</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Dermatology</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>General Surgery</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Consultative & Diagnostic</a></li>
+							</ul>
+						</section>
+						<!--/ sevices -->
+					</div>
+					
+					<div class="grid-col grid-col-4">
+						<!-- appointment -->
+						<section class="widget widget-appointment">
+							<div class="widget-title">Make an Appointment</div>
+							<form action="http://html.creaws.com/clinico/php/contact-send.php" id="contactform">
+								<fieldset>
+									<div class="row">
+										<input type="text" placeholder="Full Name" name="name">
+										<i class="fa fa-user"></i>
+									</div>
+									<div class="row">
+										<input type="tel" placeholder="Phone Number" name="phone">
+										<i class="fa fa-phone"></i>
+									</div>
+									<div class="row">
+										<input type="email" placeholder="Email Address" name="email">
+										<i class="fa fa-envelope"></i>
+									</div>
+									<div class="row">
+										<input type="text" placeholder="Appointment Date" name="date">
+										<i class="fa fa-calendar"></i>
+									</div>
+									<div class="row">
+										<textarea cols="30" rows="5" placeholder="Message" name="message"></textarea>
+										<i class="fa fa-align-left"></i>
+									</div>
+									<div class="clearfix captcha">
+										<button type="submit" class="button" value="Submit">Send Message</button>
+										<div class="captcha-wrapper">
+											<iframe src="php/capcha.html" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+											<input class="verify" type="text" id="verify" name="verify" />
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</section>
+						<!--/ appointment -->	
+					</div>
+				</div>
+			</main>
+			<!--/ page content -->
+<?php $this->load->view('site/layout/footer'); ?>

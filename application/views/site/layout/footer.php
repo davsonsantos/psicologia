@@ -1,199 +1,156 @@
-<!-- START OF FOOTER -->
-<div class="footer">
-    <ul class="share">
-        <li>
-            <a class="twitter" href="" title="Twitter"></a>
-        </li>
-        <li>
-            <a class="facebook" href="" title="Facebook"></a>
-        </li>
-        <li>
-            <a class="gplus" href="" title="Google Plus"></a>
-        </li>
-        <li>
-            <a class="pinterest" href="" title="Pinterest"></a>
-        </li>
-    </ul>
-    <div class="footerinner">
-        &copy; 2015/<?= date('Y') ?>. Grupo 2D by <a href="http://davsonsantos.com.br">Davson Santos</a>
-    </div>
-</div><!--footer-->
-<!-- END OF FOOTER -->
 
-</div><!--mainwrapper-->
+			<!-- page footer -->
+			<footer class="page-footer">
+				<a href="#" id="top-link" class="top-link"><i class="fa fa-angle-double-up"></i></a>
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-4">
+						<!-- last news -->
+						<section class="widget-alt last-news">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Transformar</div>
+							<ul>
+								<li>Transformar é um Consultório de Psicologia que proporciona para o seu cliente uma
+										nova maneira de resignificar sua vida, adquirindo autoconhecimento, autonomia e 
+											amadurecimento pessoal e profissional.</li>
+								<li><strong>Quando procurar ajuda de uma psicóloga?</strong>
+									<p>Em situação de sofrimento, dificuldades no relacionamento familiar, na aprendizagem, 
+									estafa mental, stress, para o desenvolvimento pessoal e Transtornos como Depressão, 
+									Ansiedade, Fobias, Obsessivo Compulsivo, Distúrbios alimentares, Dependência 
+									química e outros.</p>
+								</li>
+							</ul>
+						</section>
+						<!--/ last news -->
+					</div>
+					
+					<div class="grid-col grid-col-4">
+						<!-- location -->
+						<section class="widget-alt location">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Locallizção</div>
+							<address>Rua Iritama, nº 04, Quadra 32 – 1º piso – Conjunto Américo Medeiros - Cidade Nova, Manaus - Am. CEP 69097-750 </address>
+							<ul>
+								<li><i class="fa fa-phone"></i>(92) 99246-8657 / 98108-1768 / 99455-6124</li>
+								<li><i class="fa fa-at">@</i>transformarpsi@gmail.com</li>
+								<li><i class="fa fa-home"></i>www.psicotransformar.com.br</li>
+							</ul>
+							<nav>
+								<!-- <a href="#" class="fa fa-twitter"></a> -->
+								<a href="http://www.facebook.com/transformarconsultorio" class="fa fa-facebook"></a>
+								<!-- <a href="#" class="fa fa-instagram"></a> -->
+							</nav>
+						</section>
+						<!--/ location -->	
+					</div>
+					
+					<!-- <div class="grid-col grid-col-3">
+						<section class="widget-alt recent-posts">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Recent Posts</div>
+							<ul>
+								<li>
+									<a href="#"><img src="pic/post/1.png" width="80" height="80" alt=""></a>
+									<p><a href="#">New study links lutein with eye health benefits, consectetur adipiscing</a><br>5 months ago</p>
+								</li>
+								<li>
+									<a href="#"><img src="pic/post/2.png" width="80" height="80" alt=""></a>
+									<p><a href="#">Pets may reduce risk of heart disease, et congue dolor heart</a><br>8 months ago</p>
+								</li>
+								<li>
+									<a href="#"><img src="pic/post/3.png" width="80" height="80" alt=""></a>
+									<p><a href="#">Discoveries offer a new explanation for diabetes, consectetur</a><br>10 months ago</p>
+								</li>
+							</ul>
+						</section>				
+					</div> -->
+					
+					<div class="grid-col grid-col-4">
+						<!-- work time -->
+						<section class="widget-alt work-time">
+							<div class="widget-icon"></div>
+							<dl>
+								<dt>Seg</dt>
+								<dd>08:00 as 12:00  - 14: as 18:00</dd>
+								<dt>Ter</dt>
+								<dd>08:00 as 12:00  - 14: as 18:00</dd>
+								<dt>Qua</dt>
+								<dd>Free day</dd>
+								<dt>Qui</dt>
+								<dd>08:00 as 12:00  - 14: as 18:00</dd>
+								<dt>Sex</dt>
+								<dd>08:00 as 12:00  - 14: as 18:00</dd>
+							</dl>
+							<a href="#" class="button">Agende Sua Consulta</a>
+						</section>
+						<!--/ work time -->							
+					</div>
+				</div>
+			</footer>
+			<!--/ page footer -->
+			
+			<!-- copyrights -->
+			<div class="copyrights">Copyrights ©2015/<?=date('Y')?>: <?=SITE_TITULO?></div>
+			<!--/ copyrights -->
 
-<script type="text/javascript" src="<?= SITE_JS ?>jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="<?= SITE_JS ?>modernizr.min.js"></script>
-<script type="text/javascript" src="<?= SITE_JS ?>superfish.js"></script>
-<script type="text/javascript" src="<?= SITE_JS ?>bootstrap.min.js"></script>
-<script type="text/javascript" src="<?= SITE_JS ?>jquery.resize.min.js"></script>
-<script type="text/javascript" src="<?= SITE_JS ?>custom.js"></script>
+		</div>
+		
+		<!-- scripts -->
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery-ui.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.migrate.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>owl.carousel.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.fancybox-media.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.flot.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.flot.pie.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.flot.categories.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>greensock.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>layerslider.transitions.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>layerslider.kreaturamedia.jquery.js"></script>
 
-<link rel="stylesheet" href="<?= GD_CSS ?>validationEngine.jquery.css">   
-<script src="<?= GD_JS ?>validation/validate.min.js"></script>
-<script src="<?= GD_JS ?>validation/validationEngine.min.js"></script>       
-    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!-- Superscrollorama -->		
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.superscrollorama.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>TweenMax.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>TimelineMax.min.js"></script>
+	<!--/ Superscrollorama -->
+	
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.ui.core.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.ui.widget.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.ui.tabs.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery-ui-tabs-rotate.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.ui.accordion.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.tweet.js"></script>
+	<!-- EASYPIECHART -->
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.easypiechart.js"></script>
+	<!--/ EASYPIECHART -->
+		<script type="text/javascript" src="<?=SITE_JS?>jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="<?=SITE_JS?>scripts.js"></script>
+		<!--/ scripts -->
+		
+		<!-- tuner -->
+		<!-- <script src="tuner/js/scripts.js"></script>
+		<div id="tuner" class="tuner">
+			<label>Theme Colors</label>
+			<ul class="colors">
+				<li data-color="blue" class="color-blue active"><span></span></li>
+				<li data-color="green" class="color-green"><span></span></li>
+				<li data-color="pink" class="color-pink"><span></span></li>
+				<li data-color="cyan" class="color-cyan"><span></span></li>
+				<li data-color="orange" class="color-orange"><span></span></li>
+				<li data-color="purple" class="color-purple"><span></span></li>
+			</ul>
+			<label>Layout Styles</label>
+			<ul class="layouts">
+				<li data-layout="boxed">Boxed</li>
+				<li data-layout="widescreen" class="active">Widescreen</li>
+			</ul>
+			<i id="tuner-switcher" class="fa fa-cogs"></i>
+		</div> -->
+		<!--/ tuner -->
+		
+	</body>
 
-
-<script>
-jQuery(document).ready(function(){
-    jQuery("#contactform").validationEngine();
-    jQuery('#erro').hide();
-    jQuery('#ok').hide();
-    jQuery('#load').hide();
-    jQuery('#enviar').click(function(){
-        jQuery('#contactform').submit(function(){	
-            if (jQuery("#contactform").validationEngine('validate')) {
-                jQuery('#load').show();
-                var dados = jQuery( this ).serialize();
-                jQuery.ajax({
-                    type: "POST",
-                    url: "<?= SITE_RAIZ ?>site/inicio/enviar_email",
-                    data: dados,
-                    success: function(data){
-                        if(data==1){
-                            jQuery('#ok').show();
-                            jQuery('#load').hide();
-                            document.getElementById("contactform").reset();
-                        }else{
-                            jQuery('#erro').show();		//Informa o erro
-                            jQuery('#load').hide();
-                        }
-                    } 
-                }) 
-            };
-        return false;
-        });
-        
-    });
-})
-</script> 
-
-
-
-<script type="text/javascript">
-    
-    jQuery(document).ready(function () {
-        var c = 0
-        jQuery('#homepanel .item').each(function () {
-            jQuery(this).addClass('animate' + c + ' bounceInUp');
-            c++;
-        });
-        // Tooltip
-        jQuery('.im-inner a').tooltip();
-        // Photo grid hover
-        jQuery('#homepanel .item').hover(function () {
-            if (Modernizr.csstransitions) {
-                jQuery(this).find('.itemcontent').addClass('animate0 fadeInDown').show();
-                jQuery(this).find('.itemmeta').addClass('animate0 fadeInUp').show();
-            } else {
-                jQuery(this).find('.itemcontent').fadeIn();
-                jQuery(this).find('.itemmeta').slideDown();
-            }
-        }, function () {
-            jQuery(this).find('.itemcontent').removeClass('animate0 fadeInDown').fadeOut();
-            jQuery(this).find('.itemmeta').removeClass('animate0 fadeInUp').fadeOut();
-        });
-        // Item details view
-        jQuery('.itemview').click(function () {
-
-            jQuery('<div id="itemdetails" class="itemdetails"></div>').insertAfter('.leftpanel');
-            jQuery('#itemdetails').hide().fadeIn();
-            var url = jQuery(this).attr('href');
-            jQuery.post(url, function (data) {
-                jQuery('#itemdetails').append(data);
-                if (jQuery(window).width() <= 768) {
-                    jQuery('.mainpanel').hide();
-                    if (jQuery('.leftpanel').is(':visible'))
-                        jQuery('.leftpanel').hide();
-                }
-            });
-            return false;
-        });
-        jQuery('.itemdetails .close').live('click', function () {
-            jQuery('.itemdetails').fadeOut(function () {
-                jQuery(this).remove();
-                if (jQuery(window).width() <= 768)
-                    jQuery('.mainpanel').show();
-            });
-            return false;
-        });
-        jQuery('.prev').live('click', function () {
-            var url = jQuery(this).attr('href');
-            jQuery.post(url, function (data) {
-                jQuery('#itemdetails').html(data);
-            });
-            return false;
-        });
-        jQuery('.next').live('click', function () {
-            var url = jQuery(this).attr('href');
-            jQuery.post(url, function (data) {
-                jQuery('#itemdetails').html(data);
-            });
-            return false;
-        });
-    });
-</script>
-
-<!-- COLOR SWITCHER: DEMO PURPOSES ONLY DO NOT INCLUDE IN PRODUCTION -->
-<div class="settings">
-    <a class="show"></a>
-    <div class="settingsinner">
-        <h4>Restrito</h4>
-        <div class="predefined">
-            <p>
-                Login de Acesso:
-            </p>
-<!--            <a href="" class="default"><span></span></a>
-            <a href="style.blue" class="blue"><span></span></a>
-            <a href="style.brown" class="brown"><span></span></a>
-            <a href="style.green" class="green"><span></span></a>
-            <a href="style.gray" class="gray"><span></span></a>
-            <a href="style.lime" class="lime"><span></span></a>
-            <a href="style.magenta" class="magenta"><span></span></a>
-            <a href="style.navyblue" class="navyblue"><span></span></a>
-            <a href="style.purple" class="purple"><span></span></a>
-            <a href="style.red" class="red"><span></span></a>-->
-            <form action="" id="form_login" name="form_login" class="login" method="post">
-                <input type="text" class="form-control" style="width: 100%" placeholder="Login" name="usuario">
-                <input type="password" class="form-control" style="width: 100%" placeholder="Senha" name="senha">
-                <button type="submit" id="botao" class="btn btn-default">Login</button>
-            </form>
-        </div>
-    </div><!--settingsinner-->
-</div><!--settings-->
-
-<div class="menubar">
-    <a class="showleftmenu"></a><img src="<?= SITE_IMG ?>sartana-logo.png" alt="Sartana">
-</div>
-
-
-<script>
-jQuery(document).ready(function(){
-    jQuery('#form_login').submit(function(){	
-        if (jQuery("#form_login").validationEngine('validate')) {
-        	jQuery('#botao').addClass( "alert" );
-        	jQuery('#botao').html('Acessando...');
-            var dados = jQuery( this ).serialize();
-            jQuery.ajax({
-                type: "POST",
-                url: "<?= GD_RAIZ ?>login/logar",
-                data: dados,
-                success: function(data){
-                    if(data==1){
-                    	jQuery('#botao').addClass( "alert-success" );
-                        location.href='<?= GD_RAIZ ?>inicio/index'	//Redireciona
-                    }else{
-                    	jQuery('#botao').addClass( "alert-error" );
-                        jQuery('#botao').html('Erro ao Acessar');
-                    }
-                } 
-            }) 
-        };
-        return false;
-    });
-})
-</script> 
-
-</body>
-</html> 
+<!-- Mirrored from html.creaws.com/clinico/ by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 10 Apr 2015 15:28:28 GMT -->
+</html>
