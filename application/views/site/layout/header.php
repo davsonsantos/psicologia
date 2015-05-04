@@ -97,8 +97,8 @@
 							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
 							<div class="buttons">
 								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a><!--
-								--><a href="#" class="button">Read More</a><!--
-								--><a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+								<a href="#" class="button">Read More</a><!--
+								<a href="#" class="next"><i class="fa fa-angle-right"></i></a>
 							</div>
 						</div> -->
 					</div>
@@ -110,9 +110,9 @@
 							<h2><span>LAB</span>TESTING</h2>
 							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
 							<div class="buttons">
-								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a><!--
-								--><a href="#" class="button">Read More</a><!--
-								--><a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+								<a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
+								<a href="#" class="button">Read More</a><!--
+								<a href="#" class="next"><i class="fa fa-angle-right"></i></a>
 							</div>
 						</div> -->
 					</div>
@@ -123,7 +123,6 @@
 			<!-- page content -->
 			<main class="page-content">
 				<div class="grid-row">
-					<!-- benefits -->
 					<section class="benefits">
 						<ul>
 							<li>
@@ -389,10 +388,6 @@
 									</div>
 									<div class="clearfix captcha">
 										<button type="submit" class="button" value="Submit">Send Message</button>
-										<div class="captcha-wrapper">
-											<iframe src="php/capcha.html" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-											<input class="verify" type="text" id="verify" name="verify" />
-										</div>
 									</div>
 								</fieldset>
 							</form>
@@ -402,4 +397,3 @@
 				</div>
 			</main>
 			<!--/ page content -->
-<?php $this->load->view('site/layout/footer'); ?>
