@@ -9,12 +9,7 @@ class Inicio extends CI_Controller {
     }
     
     public function index(){
-		$logo = logo_site();
-    	$data = array('titulo'=>$logo['titulo'],'logo'=>$logo['logo'],
-					  'projetos' => $this->site->get_projetos(TRUE)->result()
-					  );
-
-        $this->load->view('site/index',$data);
+        $this->load->view('site/index');
     }
 	
     function t_contato(){

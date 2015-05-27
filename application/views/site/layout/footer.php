@@ -75,7 +75,7 @@
 								<dt>Ter</dt>
 								<dd>08:00 as 12:00  - 14: as 18:00</dd>
 								<dt>Qua</dt>
-								<dd>Free day</dd>
+								<dd>08:00 as 12:00  - 14: as 18:00</dd>
 								<dt>Qui</dt>
 								<dd>08:00 as 12:00  - 14: as 18:00</dd>
 								<dt>Sex</dt>
