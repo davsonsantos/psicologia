@@ -31,7 +31,7 @@
 							<div class="widget-title">Locallizção</div>
 							<address>Rua Iritama, nº 04, Quadra 32 – 1º piso – Conjunto Américo Medeiros - Cidade Nova, Manaus - Am. CEP 69097-750 </address>
 							<ul>
-								<li><i class="fa fa-phone"></i>(92) 99246-8657 / 98108-1768 / 99455-6124</li>
+								<li><i class="fa fa-phone"></i>(92) 99246-8657 / 98108-1768</li>
 								<li><i class="fa fa-at">@</i>transformarpsi@gmail.com</li>
 								<li><i class="fa fa-home"></i>www.psicotransformar.com.br</li>
 							</ul>

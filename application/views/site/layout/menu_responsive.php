@@ -8,7 +8,7 @@
 			<a href="<?=SITE_RAIZ?>site/sobre"><i class="fa fa-plus"></i>Sobre</a>
 		</li>
 		<li>
-			<a href="<?=SITE_RAIZ?>site/serviços"><i class="fa fa-plus"></i>Serviços</a>
+			<a href="<?=SITE_RAIZ?>site/servicos"><i class="fa fa-plus"></i>Serviços</a>
 		</li>
 		<li>
 			<a href="<?=SITE_RAIZ?>site/contato"><i class="fa fa-plus"></i>Contato</a>

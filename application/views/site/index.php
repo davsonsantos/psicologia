@@ -135,7 +135,7 @@
 			<div id="doctors-carousel" class="owl-carousel">
 				<div class="item">
 					<div class="pic">
-						<img src="<?=SITE_IMG?>pic/doctor-1.jpg" width="270" height="270" alt="Dra. Nígia Pessoa">
+						<img src="<?=SITE_IMG?>pic/doctor-1.jpg" width="270" height="270" alt="Psic. Nígia Pessoa">
 						<div class="links">
 							<ul>
 								<li>
@@ -144,14 +144,14 @@
 							</ul>
 						</div>
 					</div>
-					<h3><a href="<?=SITE_RAIZ?>inicio/nigia">Dr. Nígia Pessoa</a></h3>
+					<h3><a href="<?=SITE_RAIZ?>inicio/nigia">Psic. Nígia Pessoa</a></h3>
 					<p>
 						Psicóloga
 					</p>
 				</div>
 				<div class="item">
 					<div class="pic">
-						<img src="<?=SITE_IMG?>pic/doctor-2.jpg" width="270" height="270" alt="Dra. Outra Dra">
+						<img src="<?=SITE_IMG?>pic/doctor-2.jpg" width="270" height="270" alt="Psic. Outra Dra">
 						<div class="links">
 							<ul>
 								<li>
@@ -160,7 +160,7 @@
 							</ul>
 						</div>
 					</div>
-					<h3><a href="<?=SITE_RAIZ?>inicio/damiana">Dra. Damiana Paixão</a></h3>
+					<h3><a href="<?=SITE_RAIZ?>inicio/damiana">Psic. Damiana Paixão</a></h3>
 					<p>
 						Psicóloga
 					</p>
