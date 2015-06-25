@@ -12,7 +12,7 @@ class Inicio extends CI_Controller {
         $this->load->view('site/index');
     }
 	
-    function t_contato(){
+    function contato(){
     	$logo = logo_site();
 		$data = array('titulo'=>$logo['titulo'],'logo'=>$logo['logo']);
         $this->load->view('site/contato',$data);
@@ -23,17 +23,27 @@ class Inicio extends CI_Controller {
     } 
     
     function enviar_email(){
-        $dados = array('nome'=>$this->input->post('nome'),
-                       'email'=>$this->input->post('email'),
-                       'assunto'=>$this->input->post('assunto'),
-                       'msg'=>$this->input->post('msg'),    
-                       'anexo'=>"");
+    	
+		$destino = explode(";", $this->input->post('destino'));
+		
+		$msg = "Destiando à ".$destino[1].", ".$this->input->post('message');
+		
+        $dados = array('nome'=>$this->input->post('name'),
+        			   'remetente'=>$this->input->post('email'),
+                       'destino'=>$destino[0],
+                       'assunto'=>$this->input->post('subject'),
+                       'msg'=>$msg);
+        
+		//print_r($dados);exit;
+		
         $retorno = enviar_email_site($dados);
+        
         if($retorno == true){
-            echo 1;
+            set_msg('msg','Email enviado com sucesso','sucesso');
         }else{
-            echo 0;
+            set_msg('msg','Email não enviado','erro');
         }
+		redirect(base_url('site/inicio/contato'), 'refresh');
     }
 	
 	function detalhe(){

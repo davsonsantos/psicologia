@@ -115,9 +115,6 @@ function twitter_carousel_init (){
 
 
 
-/**/
-/* google map */
-/**/
 
 function init_map()
 {
@@ -145,16 +142,12 @@ function init_map()
   });
 }
 
-/**/
-/* on resize event */
-/**/
+
 $(window).resize(function()
 {
 
 	sticky ()	
-	/**/
-	/* benefits */
-	/**/
+
 	$('.benefits .text').css('padding-bottom', 51);
 	if( $(window).width() > 767 )
 	{
@@ -183,45 +176,31 @@ $(window).resize(function()
 	}
 	
 	
-	/**/
-	/* doctors */
-	/**/
+
 	$('#doctors .grid').isotope({
 		masonry: {columnWidth: $('#doctors .item').outerWidth()}
 	});
 	
 	
-	/**/
-	/* news */
-	/**/
+	
 	$('#news .grid').isotope({
 		masonry: {columnWidth: $('#news .item').outerWidth()}
 	});
 	
 	
-	/**/
-	/* photo tour */
-	/**/
+
 	$('#photo-tour .grid').isotope({
 		masonry: {columnWidth: $('#photo-tour .item').outerWidth()}
 	});
 });
 
 
-/**/
-/* on load event */
-/**/
 $(function()
 {
-	/**/
-	/* fancybox */
-	/**/
+	
 	$(".fancybox").fancybox();
 	
 	
-	/**/
-	/* mobile main nav */
-	/**/
 	$('#mobile-main-nav').on('click', 'i', function()
 	{
 		$(this).nextAll('ul').slideToggle('fast');
@@ -233,9 +212,6 @@ $(function()
 	});
 	
 	
-	/**/
-	/* quick search */
-	/**/
 	$('#quick-search-switcher').on('click', function()
 	{
 		$('#quick-search').toggleClass('quick-search-visible');
@@ -262,9 +238,6 @@ $(function()
 	        }
 	 });
 
-	/**/
-	/* slider */
-	/**/
      $("#slider").layerSlider({
             width : '100%',
             height : '680px',
@@ -313,9 +286,6 @@ $(function()
 	});
 	
 	
-	/**/
-	/* doctors */
-	/**/
 	$('#doctors .grid').isotope({
 		itemSelector : '.item',
 		masonry: {columnWidth: $('#doctors .item').eq(0).outerWidth()}
@@ -329,9 +299,6 @@ $(function()
 	});
 	
 	
-	/**/
-	/* doctors carousel */
-	/**/
 	$('#doctors-carousel').owlCarousel({
 		items: 4,
 		itemsDesktop: false,
@@ -344,9 +311,6 @@ $(function()
 		pagination: false
   });
 
-	/**/
-	/* wellness doctors carousel */
-	/**/
 	$('#wellness-doctors-carousel').owlCarousel({
 		items: 3,
 		itemsDesktop: false,
@@ -359,10 +323,6 @@ $(function()
 		pagination: false
   });
 
-	/**/
-	/* news carousel 3 */
-	/**/
-	/**/
 	$('#news-carousel-3').owlCarousel({
 		items: 3,
 		itemsDesktop: false,
@@ -375,7 +335,6 @@ $(function()
 		pagination: false
   });
 
-	/* services carousel */
 	$('#services-carousel').owlCarousel({
 		items: 2,
 		itemsDesktop: false,
@@ -389,9 +348,6 @@ $(function()
   });
 	/* services carousel */
 
-	/**/
-	/* news */
-	/**/
 	var $container = $('#news .grid').isotope({
 		itemSelector : '.item',
 		masonry: {columnWidth: $('#news .item').outerWidth()}
@@ -425,9 +381,6 @@ $(function()
 	});
 	
 	
-	/**/
-	/* photo tour */
-	/**/
 	$('#photo-tour .grid').isotope({
 		itemSelector : '.item',
 		masonry: {columnWidth: $('#photo-tour .item').outerWidth()}
@@ -463,9 +416,6 @@ $(function()
 	});
 	
 	
-	/**/
-	/* map */
-	/**/
 	if( document.getElementById('map') )
 	{
 		var script = document.createElement('script');
@@ -475,36 +425,25 @@ $(function()
  	}
 	
 	
-	/**/
-	/* widget calendar */
-	/**/
 	$('#calendar').datepicker({
 		prevText: '<i class="fa fa-angle-left"></i>',
 		nextText: '<i class="fa fa-angle-right"></i>'
 	});
 	
 	
-	/**/
-	/* widget departments */
-	/**/
+	
 	$('.widget-departments').on('click', 'dt', function()
 	{
 		$(this).toggleClass('opened').next().slideToggle('fast');
 	});
 	
 	
-	/**/
-	/* widget contacts */
-	/**/
 	$('.widget-contacts').on('click', 'dt', function()
 	{
 		$(this).toggleClass('opened').next().slideToggle('fast');
 	});
 	
 	
-	/**/
-	/* widget comments */
-	/**/
 	$('#comments-carousel').owlCarousel({
 		singleItem: true,
 		navigation: true,
@@ -518,9 +457,6 @@ $(function()
   });
 	
 	
-	/**/
-	/* widget help */
-	/**/
 	$('#help-carousel').owlCarousel({
 		singleItem: true,
 		navigation: true,
@@ -534,18 +470,12 @@ $(function()
   });
   	
 	
-	/**/
-	/* progress bar */
-	/**/
   $('.vc_bar').each(function()
   {
 	  $(this).append('<em style="left: ' + $(this).data('value') + '%">' + $(this).data('value') + '%</em>');
   });
 
 
-	/**/
-	/* services */
-	/**/
 	$('.detailed-services').on('click', 'dt', function()
 	{
 		$(this).toggleClass('opened').next().slideToggle('fast');
@@ -556,9 +486,6 @@ $(function()
 	}
 	
 	
-	/**/
-	/* chart graph */
-	/**/
 	if( $(".chart-graph").length )
 	{
 		var data=[];
@@ -607,9 +534,6 @@ $(function()
 		});	
 	}
 	
-	/**/
-	/* chart pie */
-	/**/	
 	if( $(".chart-pie").length )
 	{
 		var data=[];
@@ -644,9 +568,6 @@ $(function()
 	}
 	
 
-	/**/
-	/* messages */
-	/**/
 	$('.wpb_alert').on('click', function()
 	{
 		$(this).fadeOut();
@@ -654,9 +575,7 @@ $(function()
 	
 	
 	
-	/**/
-	/* back to top */
-	/**/
+	
 	$('#top-link').click(function()
 	{
 		$('html, body').animate({scrollTop: 0});
@@ -667,9 +586,6 @@ $(function()
 
 $(window).load(function()
 {	
-	/**/
-	/* benefits */
-	/**/
 	$('.benefits .text').css('padding-bottom', 51);
 	if( $(window).width() > 767 )
 	{
@@ -701,7 +617,7 @@ $(window).load(function()
 
 
 
-function contact_form_init(){
+function contact_form_init() {
 		if($('#contactform').length) {
 
 			var $form = $('#contactform'),
